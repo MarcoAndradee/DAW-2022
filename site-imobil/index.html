@@ -1,57 +1,153 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imobiliária Unimater</title>
 </head>
+
 <body>
-    
-    <!--
-        Início do cabeçalho (topo)
-    -->
-    <img src="./assets/logo_imobiliaria.svg"alt="Logomarca da imobiliária">
-    <h6>Imobiliária Unimater</h6>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Venda</a></li>
-        <li><a href="#">Locação</a></li>
-        <li><a href="#">A Empresa</a></li>
-        <li><a href="#">Fale Conosco</a></li>
-        <li><a href="#">Login</a></li>
-    </ul>
 
-    <!--
-        Fim do cabeçalho
-      -->
+    <header>
+        <div class="container">
+            <div class="brand">
+                <img src="./assets/logo_imobiliaria.svg" alt="Logomarca da imobiliária">
+                <h6>Imobiliária Unimater</h6>
+            </div>
 
-    <h1>Lugar exato para você realizar os seus sonhos</h1>
-    <h3>Nós oferecemos um serviço completo de venda, locação
-        e compra</h3>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Venda</a></li>
+                    <li><a href="#">Locação</a></li>
+                    <li><a href="#">A Empresa</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                    <button>Login</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
 
-    <h2>Imóveis disponíveis</h2>
-    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
-    <p>Maiores ipsum, velit id voluptas quis adipisci sed, a ab provident
-     voluptatum animi? Voluptates dolorem vitae beatae dolores 
-     tempore in voluptate totam?</p>
-     <p>R$ 900.000,00</p>
+            <section id="banner">
+                <h1>Lugar exato para você realizar os seus sonhos</h1>
+                <h3>Nós oferecemos um serviço completo de venda, locação
+                    e compra</h3>
+            </section>
 
-     <h2>Por que nos escolher?</h2>
-     <p>+1000</p>
-     <p>Imóveis</p>
+            <section id="cards">
+                <h2>Imóveis disponíveis</h2>
+                <div class="cards-content">
+                    <div class="card">
+                        <img src="thumb1.png" alt="Casa1">
+                        <div class="card-content">
+                            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                            <p>Maiores ipsum, velit id voluptas quis adipisci sed, a ab provident
+                                voluptatum animi? Voluptates dolorem vitae beatae dolores
+                                tempore in voluptate totam?</p>
+                            <p>R$ 900.000,00</p>
+                        </div>
+                    </div>
 
-     <p>+500</p>
-     <p>Clientes Felizes</p>
+                    <div class="card">
+                        <img src="thumb2.png" alt="Casa2">
+                        <div class="card-content">
+                            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                            <p>Maiores ipsum, velit id voluptas quis adipisci sed, a ab provident
+                                voluptatum animi? Voluptates dolorem vitae beatae dolores
+                                tempore in voluptate totam?</p>
+                            <p>R$ 900.000,00</p>
+                        </div>
+                    </div>
 
-     <p>+50</p>
-     <p>Premiações</p>
+                    <div class="card">
+                        <img src="thumb3.png" alt="Casa3">
+                        <div class="card-content">
+                            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                            <p>Maiores ipsum, velit id voluptas quis adipisci sed, a ab provident
+                                voluptatum animi? Voluptates dolorem vitae beatae dolores
+                                tempore in voluptate totam?</p>
+                            <p>R$ 900.000,00</p>
+                        </div>
+                    </div>
 
-     <p>+100</p>
-     <P>Especialistas</P>
+                    <div class="card">
+                        <img src="thumb4.png" alt="Casa4">
+                        <div class="card-content">
+                            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                            <p>Maiores ipsum, velit id voluptas quis adipisci sed, a ab provident
+                                voluptatum animi? Voluptates dolorem vitae beatae dolores
+                                tempore in voluptate totam?</p>
+                            <p>R$ 900.000,00</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="thumb5.png" alt="Casa5">
+                        <div class="card-content">
+                            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                            <p>Maiores ipsum, velit id voluptas quis adipisci sed, a ab provident
+                                voluptatum animi? Voluptates dolorem vitae beatae dolores
+                                tempore in voluptate totam?</p>
+                            <p>R$ 900.000,00</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="thumb6.png" alt="Casa6">
+                        <div class="card-content">
+                            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                            <p>Maiores ipsum, velit id voluptas quis adipisci sed, a ab provident
+                                voluptatum animi? Voluptates dolorem vitae beatae dolores
+                                tempore in voluptate totam?</p>
+                            <p>R$ 900.000,00</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="reasons">
+                <h2>Por que nos escolher?</h2>
+                <div class="reasons-content">
+                    <div class="reason">
+                        <p class="reason-value">+1000</p>
+                        <p class="reason-tabel">Imóveis</p>
+                    </div>
+
+                    <div class="reason">
+                        <p class="reason-value">+500</p>
+                        <p class="reason-tabel">Clientes Felizes</p>
+                    </div>
+
+                    <div class="reason">
+                        <p class="reason-value">+50</p>
+                        <p class="reason-tabel">Premiações</p>
+                    </div>
+
+                    <div class="reason">
+                        <p class="reason-value">+100</p>
+                        <p class="reason-tabel">Especialistas</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="specialists"></section>
+
+            <section id="values"></section>
+
+        </div>
 
 
+    </main>
 
+    <footer>
+
+    </footer>
 
 </body>
+
 </html>
