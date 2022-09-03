@@ -26,7 +26,7 @@ header .brand {
 }
 
 header .brand img {
-    width: 40px;
+    width: 80px;
 }
 
 header .brand h6 {
@@ -84,14 +84,15 @@ main h2{
     color: #01528A;
 }
 #banner{
-    height: 495px;
+    margin: 10px 10px 10px 10px;
+    height: 500px;
     border: 1px solid #dcdceb;
-    border-radius: 10px;
-    color: #01528a;
-    background-image: url('../Img/background-house.png');
+    border-radius: 30px;
+    color: #fff;
+    background-image: url('../Img/Logo\ 02.svg');
     background-repeat: no-repeat;
-    background-position: right;
-}
+    background-position:top;
+ }
 #banner h1{
     margin: 60px 0 0 45px;
     font-weight: 300;
@@ -106,12 +107,6 @@ main h2{
     line-height: 36px;
     margin-bottom: 32px;
 }
-
-
-#cards{
-    margin: 32px 0;
-}
-/* elemento de repetição*/
 #cards .cards-content{
     display: flex;
     flex-direction: row;
@@ -120,4 +115,44 @@ main h2{
 }
 #cards .card{
     width: 530px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 48px;
+    position: relative;
 }
+#cards .card img{
+    width: 160px;
+    height: 180px;
+}
+#cards .card h4{
+    font-weight: 400;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+#cards .card p{
+    font-weight: 300;
+    margin-bottom: 12px;
+    text-align: justify;
+    color: #8f90a6;
+    max-height: 90px;
+    overflow: hidden;
+}
+#cards .card .card-price{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    right: 20px;
+    bottom: 0px;
+}
+#cards .card-price p{
+    background-color: #0889d4;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
