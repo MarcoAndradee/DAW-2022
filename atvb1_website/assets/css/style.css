@@ -8,47 +8,54 @@ body {
 }
 
 header {
-    padding: 20px 20px 0 20px; /* TOP RIGHT BOTTOM LEFT (cima,direita,baixo,esquerda*/
+    top: 0;
+    background:#fff;
+    height: 80px;
+    padding: 0 30px;   
+
 }
 
 header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
+    
 }
 
 header .brand {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 5px;
+    align-items:center;
+    gap: 10px;
 }
 
 header .brand img {
-    width: 80px;
+    width: 200px;
 }
 
 header .brand h6 {
     font-size: 24px;
     color: #01528A;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 30px;
+    
 }
 header ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    gap: 16px;
+    gap: 35px;
+    
 }
 header ul li {
-    font-weight: 300;
-    line-height: 30px;
+    font-weight: 450;
+    line-height: 10px;
 }
 header li a {
-    text-decoration: none;
-    color: #000;
-    padding-bottom: 16px;
+    text-decoration:none;
+    color: #01528A;
+    padding-bottom: 10px;
 }
 header li a:hover,
 header li a.active{
@@ -59,16 +66,17 @@ header li a.active{
     border-bottom: 2px solid #0889d4;
 }
 header li button{
-    background-color: #0889d4;
+    background-color: #01528A;
     color: #fff;
     border: none;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     padding: 8px 20px;
     border-radius: 4px;
     margin-left: 16px;
     line-height: 20px;
+    
 }
 
 
@@ -77,9 +85,85 @@ main{
 }
 main h2{
     margin: 32px 0;
-    font-weight: 300;
+    font-weight: 350;
     font-size: 36px;
     line-height: 56px;
     text-align: center;
     color: #01528A;
+}
+section{
+    margin-top: 40px;
+}
+#banner{
+    height: 470px;
+    border: 1px solid #0889d4;
+    border-radius: 10px;
+    color: #01528a;
+    background-image: url('../Img/Loja_uni03.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#banner h1{
+    margin: 60px 0 0 30px;
+    font-weight: 350;
+    font-size: 50px;
+    color: #01528A;
+    text-align: left;
+}
+#banner h3{
+    margin-top: 5px;
+    margin-left: 30px;
+    font-weight: 350;
+    font-size: 50px;
+    color: #01528A;
+    text-align: left;
+}
+#cards .cards-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#cards .card{
+    width: 530px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 48px;
+    position: relative;
+}
+#cards .card img{
+    width: 420px;
+    height: 420px;
+}
+#cards .card h4{
+    font-weight: 600;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+#cards .card p{
+    font-weight: 400;
+    margin-bottom: 12px;
+    text-align: justify;
+    color: #8f90a6;
+    max-height: 90px;
+    overflow:hidden;
+}
+#cards .card .card-price{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    right: 20px;
+    bottom: 0px;
+}
+#cards .card-price p{
+    background-color: #01528A;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 8px 16px;
 }
