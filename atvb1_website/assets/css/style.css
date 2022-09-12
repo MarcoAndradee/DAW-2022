@@ -141,17 +141,21 @@ section{
     height: 420px;
 }
 #cards .card h4{
-    font-weight: 600;
     margin-bottom: 12px;
+    color: #01528A;
+    font-size: 20px;
     text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
 }
 #cards .card p{
-    font-weight: 400;
     margin-bottom: 12px;
+    color:black;
+    font-size: 15px;
     text-align: justify;
-    color: #8f90a6;
-    max-height: 90px;
+    font-weight: 300;
     overflow:hidden;
+    
 }
 #cards .card .card-price{
     position: absolute;
@@ -166,4 +170,57 @@ section{
     font-size: 14px;
     border-radius: 4px;
     padding: 8px 16px;
+}
+#cupons{
+    margin-top: 0;
+    
+}
+#cupons .cupons-content{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 48px;
+    position: relative;
+    justify-content: space-between; 
+
+}
+#cupons .cupom p{
+    color: #01528A;
+    font-size: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+#cupons .cupons-content .cupom{
+    width: 100%;
+    border-left: 2px solid #0889d4;
+}
+#e_commerce .ecommerce-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+#e_commerce .ecommerce{
+    width: 100%;
+    border: 1.5px solid #dcdceb;
+    border-radius: 16px;
+    padding: 20px;
+    color: #01528A;
+    font-size: 20px;
+    text-align: center;
+}
+#e_commerce .ecommerce h5{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+#e_commerce .ecommerce p{
+    font-size: 15px;
+    font-weight: 300;
 }
