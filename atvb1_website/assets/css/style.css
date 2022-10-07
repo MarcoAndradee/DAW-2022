@@ -31,7 +31,8 @@ header .brand {
 }
 
 header .brand img {
-    width: 200px;
+    width: 100px;
+    margin-top: 20px;
 }
 
 header .brand h6 {
