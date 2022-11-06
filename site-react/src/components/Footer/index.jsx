@@ -6,10 +6,8 @@ export function Footer() {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-company">
-                        <p className="footer-logo">Imobiliária Unimater</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, neque aspernatur.
-                            Suscipit, natus qui? In, impedit voluptas sed aspernatur officiis sapiente, maxime sequi soluta,
-                            quia aliquid iusto quaerat distinctio! Iure?</p>
+                        <p className="footer-logo">Imobiliária UNIMATER</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique minus consequuntur nam saepe. Quidem laborum iste dolores libero dignissimos. Tempore vero molestias aliquid voluptatibus dolor tempora, fugit ad doloremque autem.</p>
                     </div>
 
                     <div className="footer-menu">
@@ -25,13 +23,14 @@ export function Footer() {
                     <div className="footer-menu">
                         <p className="footer-menu-title">Contato</p>
                         <ul>
-                            <li>+55 (46) 9 9999 9999</li>
+                            <li>+55 (46) 9 9999-9999</li>
                             <li>Rua Mato Grosso, 200</li>
                             <li>Pato Branco - PR</li>
                         </ul>
                     </div>
+
                     <div className="footer-menu">
-                        <p className="footer-menu-title">Nossa Empresa</p>
+                        <p className="footer-menu-title">Parceiross</p>
                         <ul>
                             <li><a href="#">Empresa XPTO</a></li>
                             <li><a href="#">Empresa do Zeca</a></li>
@@ -39,19 +38,19 @@ export function Footer() {
                             <li><a href="#">Empresa do Tonho</a></li>
                         </ul>
                     </div>
-
                 </div>
+
                 <div className="footer-social">
                     <span className="facebook"></span>
                     <span className="twitter"></span>
                     <span className="instagram"></span>
                     <span className="linkedin"></span>
                 </div>
+
                 <p className="footer-copyright">
                     &#169; 2022 - Todos os direitos reservados
                 </p>
             </div>
         </footer>
-
     )
 }
