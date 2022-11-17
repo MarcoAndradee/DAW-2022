@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 
-const data = [
+const dados = [
     {
         foto: './assets/img/thumb1.png',
         titulo: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
@@ -77,7 +77,7 @@ export const ImovelContext = createContext();
 
 export function ImovelContextProvider(props) {
     
-    const [imoveis, setImoveis] = useState(data);
+    const [imoveis, setImoveis] = useState(dados);
 
     return (
         <ImovelContext.Provider value={{imoveis}}>

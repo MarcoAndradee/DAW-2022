@@ -1,4 +1,6 @@
+import {IntlProvider, FormattedNumber} from 'react-intl';
 import { useImovel } from '../../hook/useImovel';
+
 import './style.css';
 
 
@@ -20,7 +22,13 @@ export function SectionCards() {
                             <p>{ item.descricao }</p>
 
                             <div className="card-price">
-                                <p>{ item.preco }</p>
+                                <p>
+                                    <IntlProvider locale="pt-BR">
+                                        <FormattedNumber value={item.preco} 
+                                            style="currency"
+                                            currency="BRL" />
+                                    </IntlProvider>
+                                </p>
                             </div>
                         </div>
                     </div>
