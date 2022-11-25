@@ -1,0 +1,72 @@
+header {
+    top: 0;
+    background:#fff;
+    height: 80px;
+    padding: 0 30px;   
+
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+header .brand {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 10px;
+}
+
+header .brand img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+header .brand h6 {
+    font-size: 24px;
+    color: #01528A;
+    font-weight: 600;
+    line-height: 30px;
+    
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 35px;
+    
+}
+header ul li {
+    font-weight: 450;
+    line-height: 10px;
+}
+header li a {
+    text-decoration:none;
+    color: #01528A;
+    padding-bottom: 10px;
+}
+header li a:hover,
+header li a.active{
+    color: #0889d4;
+}
+header li a.active{
+    font-weight: 400;
+    border-bottom: 2px solid #0889d4;
+}
+header li button{
+    background-color: #01528A;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin-left: 16px;
+    line-height: 20px;
+    
+}

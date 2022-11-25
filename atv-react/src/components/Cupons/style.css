@@ -1,0 +1,29 @@
+#cupons{
+    margin-top: 0;
+    
+}
+#cupons .cupons-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+
+}
+#cupons .cupom p{
+    color: #01528A;
+    font-size: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+#cupons .cupons-content .cupom{
+    width: 100%;
+    border: 1.5px solid #dcdceb;
+    border-radius: 16px;
+    padding: 20px;
+    color: #01528A;
+    font-size: 20px;
+    text-align: center;
+}
