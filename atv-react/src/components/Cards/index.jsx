@@ -16,7 +16,7 @@ export function Cards() {
                         <img src={imgCaneca}alt="Produto 1"/>
                         <div class="card-content">
                             <h4>Caneca</h4>
-                            <p> personalizada com logo do curso de Sistemas..</p>
+                            <p></p>
                             <div class="card-price">
                                 <p >R$ 50,00</p>
                             </div>
@@ -27,7 +27,7 @@ export function Cards() {
                         <img src={imgCaneta}alt="Produto 2"/>
                         <div class="card-content">
                             <h4>Caneta</h4>
-                            <p>personalizada com o logo da Unimater..</p>
+                            <p></p>
                             <div class="card-price">
                                 <p >R$ 5,00</p>
                             </div>
@@ -38,7 +38,7 @@ export function Cards() {
                         <img src={imgGarrafa}alt="Produto 3"/>
                         <div class="card-content">
                             <h4>Garrafa térmica</h4>
-                            <p>personalizada do curso de Sistemas..</p>
+                            <p></p>
                             <div class="card-price">
                                 <p >R$ 80,00</p>
                             </div>
@@ -49,7 +49,7 @@ export function Cards() {
                         <img src={imgCapa}alt="Produto 4"/>
                         <div class="card-content">
                             <h4>Capinha de celular</h4>
-                            <p> personalizada do curso de Sistemas..</p>
+                            <p></p>
                             <div class="card-price">
                                 <p >R$ 50,00</p>
                             </div>
@@ -60,7 +60,7 @@ export function Cards() {
                         <img src={imgMoletom}alt="Produto 5"/>
                         <div class="card-content">
                             <h4>Moletom</h4>
-                            <p>personalizado do curso de Sistemas..</p>
+                            <p></p>
                             <div class="card-price">
                                 <p >R$ 250,00</p>
                             </div>
@@ -71,7 +71,7 @@ export function Cards() {
                         <img src={imgMochila}alt="Produto 6"/>
                         <div class="card-content">
                             <h4>Mochila</h4>
-                            <p>personalizada com o logo da Unimater</p>
+                            <p></p>
                             <div class="card-price">
                                 <p >R$ 250,00</p>
                             </div>
